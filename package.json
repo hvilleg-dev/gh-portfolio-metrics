@@ -1,0 +1,27 @@
+{
+  "name": "gh-portfolio-metrics",
+  "version": "1.0.0",
+  "description": "CLI and GitHub Action that generates comprehensive markdown analytics reports for any GitHub profile's public repositories.",
+  "main": "src/cli.js",
+  "bin": {
+    "gh-portfolio-metrics": "bin/gh-portfolio-metrics.js"
+  },
+  "keywords": [
+    "github",
+    "portfolio",
+    "metrics",
+    "analytics",
+    "developer-tools",
+    "github-action",
+    "profile-stats"
+  ],
+  "author": "Harold Villegas (hvilleg-dev)",
+  "license": "MIT",
+  "scripts": {
+    "test": "node tests/analyzer.test.js",
+    "start": "node bin/gh-portfolio-metrics.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

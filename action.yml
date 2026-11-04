@@ -1,0 +1,25 @@
+name: 'GitHub Portfolio Metrics'
+description: 'Generate GitHub portfolio metrics reports'
+author: 'Harold Villegas'
+
+inputs:
+  github-token:
+    description: 'GitHub token for API access'
+    required: true
+  output-file:
+    description: 'Output markdown file path'
+    required: false
+    default: 'PORTFOLIO_METRICS.md'
+  username:
+    description: 'GitHub username (defaults to current user)'
+    required: false
+
+outputs:
+  metrics:
+    description: 'JSON stringified metrics object'
+  report:
+    description: 'Markdown report content'
+
+runs:
+  using: 'node20'
+  main: 'dist/action.js'
