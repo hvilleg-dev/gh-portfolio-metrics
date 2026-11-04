@@ -15,8 +15,16 @@
     "github-action",
     "profile-stats"
   ],
-  "author": "Harold Villegas (hvilleg-dev)",
+  "author": "Harold Villegas (hvilleg-dev) <hvilleg@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hvilleg-dev/gh-portfolio-metrics.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hvilleg-dev/gh-portfolio-metrics/issues",
+    "email": "hvilleg@gmail.com"
+  },
   "scripts": {
     "test": "node tests/analyzer.test.js",
     "start": "node bin/gh-portfolio-metrics.js"
